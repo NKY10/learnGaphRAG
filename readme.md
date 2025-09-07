@@ -26,7 +26,7 @@ vim .env
 └── settings   
     ├── schema.py   # 数据 schema 定义
     ├── llm.py      # LLM 配置
-    └── graphDB.py  # 图数据库配置
+    └── config.py  # 环境变量配置
 └── utils   
     └── graphDB.py      # 图数据库操作
 └── test    
