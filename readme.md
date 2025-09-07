@@ -29,7 +29,7 @@ vim .env
     └── graphDB.py  # 图数据库配置
 └── utils   
     └── graphDB.py      # 图数据库操作
-└── test    # LLM结构化输出的配置
+└── test    
     ├── example.txt # 测试用例 , llm写的小说
     ├── test_graphdb.ipynb  # 测试图数据库调用
     └── test_extract.ipynb  # 测试提取实体关系，存入数据库
