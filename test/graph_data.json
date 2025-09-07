@@ -1,0 +1,50 @@
+{
+  "entities": [
+    {
+      "entity_name": "张三",
+      "entity_type": "Person",
+      "entity_description": "软件工程师",
+      "name_embedding": null,
+      "description_embedding": null,
+      "text_unit_ids": null
+    },
+    {
+      "entity_name": "李四",
+      "entity_type": "Person",
+      "entity_description": "产品经理",
+      "name_embedding": null,
+      "description_embedding": null,
+      "text_unit_ids": null
+    },
+    {
+      "entity_name": "王五",
+      "entity_type": "Company",
+      "entity_description": "科技公司",
+      "name_embedding": null,
+      "description_embedding": null,
+      "text_unit_ids": null
+    }
+  ],
+  "relations": [
+    {
+      "source_entity": "张三",
+      "target_entity": "李四",
+      "relationship_description": "同事关系",
+      "relationship_strength": 8,
+      "description_embedding": null,
+      "text_unit_ids": null,
+      "weight": 1.0,
+      "rank": 1
+    },
+    {
+      "source_entity": "张三",
+      "target_entity": "王五",
+      "relationship_description": "工作关系",
+      "relationship_strength": 7,
+      "description_embedding": null,
+      "text_unit_ids": null,
+      "weight": 1.0,
+      "rank": 1
+    }
+  ]
+}
