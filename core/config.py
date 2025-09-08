@@ -25,3 +25,4 @@ class GraphConfig:
 
 class ChromaConfig:
     chroma_path = os.getenv("CHROMA_PATH", "./chroma")
+    collection_name = os.getenv("COLLECTION_NAME", "test")

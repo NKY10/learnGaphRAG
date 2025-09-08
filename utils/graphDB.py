@@ -1,6 +1,6 @@
 from neo4j import GraphDatabase
-from settings.config import GraphConfig
-from settings.schema import Entity, Relation
+from core.config import GraphConfig
+from core.schema import Entity, Relation
 from typing import List, Dict, Optional, Any, Union
 import json
 

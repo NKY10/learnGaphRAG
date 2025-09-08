@@ -1,6 +1,6 @@
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_ollama import ChatOllama, OllamaEmbeddings
-from settings.config import LLMConfig, EmbeddingConfig
+from core.config import LLMConfig, EmbeddingConfig
 
 def get_llm(config:LLMConfig):
     if config.type == "openai":
