@@ -1,2 +1,4 @@
 .env
 chroma/
+core/__pycache__/
+test/__pycache__/
