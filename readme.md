@@ -23,14 +23,18 @@ vim .env
 ## 项目结构
 ```bash
 ├── .env   # 环境变量配置
-└── settings   
+└── core   
     ├── schema.py   # 数据 schema 定义
     ├── llm.py      # LLM 配置
     └── config.py  # 环境变量配置
-└── utils   
+└── utils
+    ├── worker.py   # 构建知识库
+    ├── prompt.py  # 提示词
+    ├── vectorDB.py  # 向量数据库操作
     └── graphDB.py      # 图数据库操作
 └── test    
     ├── example.txt # 测试用例 , llm写的小说
+    ├── test_vdb.ipynb  # 测试图数据库调用
     ├── test_graphdb.ipynb  # 测试图数据库调用
     └── test_extract.ipynb  # 测试提取实体关系，存入数据库
 └── readme.md
